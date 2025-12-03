@@ -15,8 +15,8 @@ Binary classification models to predict diabetes from clinical measurements usin
 2. Data cleaning (treating impossible zeros as missing values, imputation) and feature scaling.
 3. Baseline logistic regression with statistical interpretation (Statsmodels).
 4. Training and evaluating multiple classifiers (Logistic Regression, Decision Tree, Random Forest, KNN, SVM, AdaBoost, Gradient Boosting, XGBoost).
-5. Hyperparameter tuning with cross-validation and comparison of train / test accuracy, ROC–AUC and Brier score.
-6. Saving the best model for reuse with Joblib.
+5. Hyperparameter tuning with cross-validation and comparison of train / test accuracy.
+
 
 ## Results
 
@@ -24,8 +24,4 @@ Binary classification models to predict diabetes from clinical measurements usin
 - Some ensemble methods achieve higher accuracy but at the cost of model complexity.
 - The final model achieves competitive test performance while remaining suitable for deployment in clinical decision support scenarios.
 
-## Repository structure
 
-- `diabetes_prediction_Logistic_Regression.ipynb` – main analysis and modeling notebook.
-- `data/` – dataset files (if included).
-- `models/` – saved trained models (if included).
